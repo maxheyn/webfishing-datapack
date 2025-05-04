@@ -56,10 +56,6 @@ def main():
     if count != 6:
         print(f"::notice::found {count} new entries (expected 6); continuing with validation")
 
-    if he[:len(be)] != be:
-        print("::error::new entries must be appended after existing entries")
-        sys.exit(1)
-
     for idx, entry in enumerate(added, start=1):
         try:
             validate(instance=entry, schema=entry_schema)

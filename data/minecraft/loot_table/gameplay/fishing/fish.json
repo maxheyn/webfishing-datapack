@@ -3063,6 +3063,276 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#9d9d9d",
+                  "italic": false,
+                  "text": "Dull Eelris"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_eelris"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Erisupachinichtys Longboiensis"
+                  },
+                  "\"Slippery when wet!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ffffff",
+                  "italic": false,
+                  "text": "Common Eelris ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_eelris"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Erisupachinichtys Longboiensis"
+                  },
+                  "\"Slippery when wet!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#1eff00",
+                  "italic": false,
+                  "text": "Shimmering Eelris ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_eelris"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Erisupachinichtys Longboiensis"
+                  },
+                  "\"Slippery when wet!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#0070dd",
+                  "italic": false,
+                  "text": "Gleaming Eelris ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_eelris"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Erisupachinichtys Longboiensis"
+                  },
+                  "\"Slippery when wet!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#a335ee",
+                  "italic": false,
+                  "text": "Ascendant Eelris ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_eelris"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Erisupachinichtys Longboiensis"
+                  },
+                  "\"Slippery when wet!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "color": "#ff8000",
+                  "italic": false,
+                  "text": "Celestine Eelris ⭐ ⭐ ⭐ ⭐ ⭐"
+                },
+                "minecraft:custom_data": {
+                  "tag": "wf_eelris"
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "gray",
+                    "text": "Erisupachinichtys Longboiensis"
+                  },
+                  "\"Slippery when wet!\""
+                ]
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:ocean",
+                  "minecraft:warm_ocean"
+                ]
+              }
+            }
+          ]
         }
       ],
       "rolls": 1
