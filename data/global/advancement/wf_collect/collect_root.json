@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "Collection",
+    "description": "",
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFkMThhMGYyM2IxYTJiODcyZWVlZDUxNTUzNmY1NDkyYjU1MzQ1M2YyYmViNGNhODJjOGI2YTEzYzhmNzJmYyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:webfishing",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

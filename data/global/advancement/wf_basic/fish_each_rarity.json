@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE2OWU4NWE4YTRmY2E1YzU5NWE5ZDI5M2Y1ZGRmMTA2OGRjNmRiOTlmMDcwMGRkNGQ1YjY3Mzg2NTUwMWE2NyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Quality Assurance",
+    "description": "Catch at least one fish of each rarity.",
+    "frame": "goal"
+  },
+  "parent": "global:wf_basic/basic_root",
+  "criteria": {
+    "fished_wf_dull": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_dull": "1b"
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_common": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_common": "1b"
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_uncommon": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_uncommon": "1b"
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_rare": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_rare": "1b"
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_epic": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_epic": "1b"
+            }
+          }
+        }
+      }
+    },
+    "fished_wf_legendary": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_legendary": "1b"
+            }
+          }
+        }
+      }
+    }
+  }
+}
