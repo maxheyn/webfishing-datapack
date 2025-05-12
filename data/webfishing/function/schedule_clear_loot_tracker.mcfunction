@@ -1,0 +1,1 @@
+schedule function webfishing:clear_loot_advancements 10t

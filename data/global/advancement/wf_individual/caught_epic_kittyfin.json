@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_kittyfin"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#a335ee",
+      "text": "Epic Kittyfin ⭐ ⭐ ⭐ ⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "goal"
+  },
+  "parent": "global:wf_individual_root",
+  "criteria": {
+    "fished_wf_kittyfin": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_kittyfin": "1b",
+              "wf_epic": "1b"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "webfishing:schedule_clear_loot_tracker"
+  }
+}

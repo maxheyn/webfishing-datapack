@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_vampiresquid"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#0070dd",
+      "text": "Rare Vampire Squid ⭐ ⭐ ⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "goal"
+  },
+  "parent": "global:wf_individual_root",
+  "criteria": {
+    "fished_wf_vampiresquid": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_vampiresquid": "1b",
+              "wf_rare": "1b"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "webfishing:schedule_clear_loot_tracker"
+  }
+}

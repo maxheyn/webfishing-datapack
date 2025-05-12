@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "wf_frogfish"
+          ]
+        }
+      }
+    },
+    "title": {
+      "color": "#ffffff",
+      "text": "Common Frog Fish ⭐"
+    },
+    "description": "You caught this fish!",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "goal"
+  },
+  "parent": "global:wf_individual_root",
+  "criteria": {
+    "fished_wf_frogfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "wf_frogfish": "1b",
+              "wf_common": "1b"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "webfishing:schedule_clear_loot_tracker"
+  }
+}
