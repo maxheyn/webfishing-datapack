@@ -1,1 +1,1 @@
-advancement revoke @a from global:wf_individual_root
+advancement revoke @a from global:wf_loot_tracker
