@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:cod",
+    "B": "minecraft:barrel"
+  },
+  "pattern": ["###", "#B#", "###"],
+  "result": {
+    "components": {
+      "minecraft:profile": {
+        "id": [-537896325, -1759229807, -1599549839, 1019014622],
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFkNjQ0NzYxZjcwNmQzMWM5OWE1OTNjOGQ1ZjdjYmJkNDM3MmQ3M2ZiZWU4NDY0ZjQ4MmZhNmMxMzlkOTdkNCJ9fX0="
+          }
+        ]
+      },
+      "minecraft:custom_name": "Saltwater Fish Vendor",
+      "minecraft:lore": [
+        {
+          "color": "green",
+          "text": "Toss at an unemployed villager"
+        },
+        {
+          "color": "green",
+          "text": "to turn them into a saltwater fish vendor."
+        }
+      ],
+      "minecraft:custom_data": {
+        "wf_conv_salt": "1b"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:player_head"
+  }
+}
